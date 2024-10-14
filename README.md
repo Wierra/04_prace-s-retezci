@@ -33,3 +33,15 @@ Ze získaných informací vytvořte objekt, který bude vypadat například takt
         };
 
 7. Pro kontrolu vypište tento objekt do stránky. Každou hodnotu vypište jako odstavec.
+
+
+## Doručování
+Vytvořte webovou stránku, kde uživatel zadá svoji adresu například pro účely doručení objednaného zboží. Požaduje ulici, číslo domu, město a PSČ.
+
+1. Uložte všechny údaje do vhodně pojmenovaných proměnných.
+Ze zadanách údajů sestavte pomocí interpolace řetězeců obsahující 2. HTML ve formátu jako níže
+        <address>
+        <p>Pod Stájemi 67</p>
+        <p>12754 Klysnov</p>
+        </address>
+3. Pomocí document.body.innerHTML vložte sestavené HTML do stránky.
